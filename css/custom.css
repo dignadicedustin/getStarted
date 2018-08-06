@@ -1,3 +1,12 @@
+.navbar {
+    background-color:white !important;
+}
+
+.navbar li a{
+    color:#000000;
+    margin-right:5px;
+}
+
 .main .carousel-indicators li {
     border-radius: 50%;
     width:12px;
@@ -32,4 +41,153 @@
     height:12px;
     border:none;
     background: #f9792f;
+}
+
+.main.carousel .carousel-caption h1 {
+    color:#FFFFFF; 
+    font-weight:200;font-size:55px;
+
+}
+
+.main.carousel .carousel-caption button {
+    animation-delay: 2s; 
+    background-color: transparent; 
+    border-color: white; 
+    border-radius: 0; 
+    width: 125px; 
+    height:38px; 
+    font-size: 12px; 
+    color:white;
+}
+.text-primary {
+    color: #f9792f;
+}
+
+#about .text-center {
+    padding-top:30px; 
+    padding-bottom: 30px;
+}
+
+#about .text-center p {
+    font-size:26px; 
+    font-weight: 200;
+}
+
+#service {
+    background-color: #F6F6F6; 
+    padding-top:40px;
+    padding-bottom:40px;
+}
+
+.section-heading {
+    font-weight:100;
+    color:#f9792f;
+}
+
+.serrvice-box h5 {
+    font-weight:200;
+    color:#f9792f;
+}
+
+.service-box p {
+    font-weight:100;
+    width:301px;
+}
+
+.serrvice-box a.btn-service-box {
+    background-color:transparent; 
+    font-size:12px;
+    width: 136px; 
+    height: 37px; 
+    border-width:2px; 
+    border-color: #f9792f; 
+    border-radius: 0;color:#000000;
+}
+
+#blog {
+    background-color: #FFFF; 
+    padding-top:30px;
+    padding-bottom:40px;
+}
+
+#blog .card .card-title {
+    font-size:12px;
+    color:#f9792f;
+    font-weight: lighter;
+}
+
+#blog .card .post-date {
+    font-size:12px;
+    font-weight:lighter;
+    margin-top:-10px
+}
+
+#blog .card .title-2 {
+    margin-top:10px;
+    font-weight:300
+}
+
+#blog .card .blog-prev {
+    font-size:14px;
+    line-height:18px;
+}
+
+#blog .read_more_link {
+    float: left;
+    color:#000000;
+    font-size: 10px;
+    font-weight: 100;
+    padding-bottom: 5px;
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #f9792f !important;
+}
+
+#blog .btn-icon-group {
+    float:right;
+}
+
+#blog .btn-icon-group .btn-icon-link {
+    color:#000000;
+    margin-right:12px;
+    font-size:18px;
+}
+
+#footer {
+    background-color:#f9792f
+}
+
+#footer .btn-get-started {
+    background-color:transparent; 
+    font-size:12px;
+    width: 145px; 
+    height: 37px; 
+    border-width:2px; 
+    border-color: #ffffff; 
+    border-radius: 0;
+    color:#ffffff;
+}
+
+#footer .section-heading {
+    color:white;
+    font-weight:100;
+}
+
+#footer .section-heading-small {
+    color:white;
+    font-weight:100;
+    font-size: 15px;
+}
+
+#footer .copyright {
+    color:white;
+    font-weight:lighter;
+    font-size:14px;
+}
+
+#footer .social-icons {
+    color:white;
+    font-weight:lighter;
+    font-size:14px;
+    margin-right:50px;
 }
