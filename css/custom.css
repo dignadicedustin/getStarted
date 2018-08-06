@@ -60,7 +60,7 @@
     color:white;
 }
 .text-primary {
-    color: #f9792f;
+    color: #f9792f !important;
 }
 
 #about .text-center {
@@ -73,7 +73,7 @@
     font-weight: 200;
 }
 
-#service {
+#services {
     background-color: #F6F6F6; 
     padding-top:40px;
     padding-bottom:40px;
