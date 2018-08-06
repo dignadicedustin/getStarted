@@ -1,0 +1,35 @@
+.main .carousel-indicators li {
+    border-radius: 50%;
+    width:12px;
+    height:12px;
+    border:2px solid white;
+    background: transparent
+}
+
+.main .carousel-indicators li.active {
+    border-radius: 50%;
+    width:12px;
+    height:12px;
+    border:none;
+    background: #f9792f;
+}
+
+.blog .carousel-indicators {
+    bottom: 451px;
+}
+
+.blog .carousel-indicators li {
+    border-radius: 50%;
+    width:12px;
+    height:12px;
+    border:2px solid gray;
+    background: transparent
+}
+
+.blog .carousel-indicators li.active {
+    border-radius: 50%;
+    width:12px;
+    height:12px;
+    border:none;
+    background: #f9792f;
+}
